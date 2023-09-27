@@ -1,0 +1,21 @@
+{
+    "name": "art-pub/nfon-api-client-php",
+    "description": "NFON administration portal REST API PHP client",
+    "type": "library",
+    "require": {
+      "php": ">=7.4.0"
+    },
+    "license": "MIT2",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "NFONAPIClient\\": "NFONAPIClient/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4@dev"
+    }
+}
