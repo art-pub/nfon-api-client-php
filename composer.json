@@ -3,9 +3,9 @@
     "description": "NFON administration portal REST API PHP client",
     "type": "library",
     "require": {
-      "php": ">=7.4.0"
+      "php": ">=8.0.0"
     },
-    "license": "MIT2",
+    "license": "MIT",
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
