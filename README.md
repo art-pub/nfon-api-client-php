@@ -68,7 +68,7 @@ bash$ composer.phar require art-pub/nfon-api-client-php
 The result is JSON-like, but difficult to read or process. The `$response` will therefore have a key `dataMap` having the result in a more useful structure, holding the original data still in `$response['data']` (for single results) or `$response['items']` (for multiple results).
 
 Original data:
-```json
+```
 ...
 [items] => Array
         (
@@ -112,7 +112,7 @@ Original data:
 ```
 
 DataMap:
-```json
+```
 ...
     [dataMap] => Array
         (
